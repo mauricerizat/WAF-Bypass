@@ -1,4 +1,5 @@
 
+
 # WAF-Bypass
 
 I'm surprised how few articles there are that talk about this rather simple Web Application Firewall bypass. It doesn't require any plugins or such.
@@ -6,9 +7,8 @@ I'm surprised how few articles there are that talk about this rather simple Web 
 You'll need BurpSuite proxy for this.
 
 * Navigate to the **Proxy** tab and then open the **Options** menu.
-
-* Then, in the **Match and Replace** section **Add** the following attributes:
-
+* Then, in the **Match and Replace** section, click **Add** to create a new rule.
+* A dialog box will open, so add one of the following attributes in the **replace** field.
 ```
 x-originating-IP: 127.0.0.1
 x-forwarded-for: 127.0.0.1
