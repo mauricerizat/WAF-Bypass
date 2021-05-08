@@ -1,7 +1,7 @@
 
 # WAF-Bypass
 
-I'm surprised how few articles there are that talk about this rather simple Web Application Firewall bypass that doesn't require any plugins or such.
+I'm surprised how few articles there are that talk about this rather simple Web Application Firewall bypass. It doesn't require any plugins or such.
 
 You'll need BurpSuite proxy for this.
 
